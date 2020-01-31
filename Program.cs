@@ -6,7 +6,13 @@ namespace UserInputJemelBarreto
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string inputNotice;
+
+            Console.WriteLine("Hi, this is Jemel Barreto. Type me a messsage!");
+           
+            inputNotice = Console.ReadLine();
+            Console.WriteLine("You have entered:" + inputNotice);
+            
         }
     }
 }
